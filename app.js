@@ -1,5 +1,7 @@
 // CAMINHOS CORRIGIDOS PARA A RAIZ
-const DATA_URL = 'ranking.json';
+
+
+const DATA_URL = 'ranking.json'; //BORA
 const HISTORY_URL = 'history.json';
 const CHART_COLORS = [
   "#ff4d2e", "#ff8c42", "#ffd166", "#3dd68c", "#4ecdc4",
