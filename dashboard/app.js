@@ -1,5 +1,6 @@
+// CAMINHOS CORRIGIDOS PARA SUBIR UM NÍVEL DA PASTA DASHBOARD
 const DATA_URL = '../data/ranking.json';
-const HISTORY_URL = '../data/history.json'; // Adicione esta linha
+const HISTORY_URL = '../data/history.json';
 const CHART_COLORS = [
   "#ff4d2e", "#ff8c42", "#ffd166", "#3dd68c", "#4ecdc4",
   "#a78bfa", "#f472b6", "#60a5fa", "#fbbf24", "#34d399",
@@ -280,28 +281,23 @@ function setupTabs() {
 
 async function load() {
   try {
-    // 1. Carrega o ranking principal
     const res = await fetch(DATA_URL);
     if (!res.ok) throw new Error(`Erro no ranking: ${res.status}`);
     data = await res.json();
 
-    // 2. Tenta carregar o histórico (se necessário para os gráficos)
     try {
-      const resHist = await fetch('../data/history.json');
+      const resHist = await fetch(HISTORY_URL); // Usando a constante corrigida
       if (resHist.ok) {
         const historyData = await resHist.json();
-        // Mescla o histórico nos dados, se necessário
         data.history = historyData; 
       }
     } catch (e) {
-      console.warn("Histórico não carregado, apenas ranking disponível.");
+      console.warn("Histórico não carregado.");
     }
 
-    // 3. Atualiza o painel
     document.getElementById("mes-referencia").textContent = data.mes_referencia || "—";
     document.getElementById("updated-at").textContent = "Atualizado em " + formatDate(data.updated_at);
 
-    // 4. Renderiza tudo
     renderOverview();
     renderClas();
     renderRankings();
