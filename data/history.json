@@ -1,0 +1,1153 @@
+{
+  "snapshots": {
+    "2026-05": {
+      "data_coleta": "2026-05-15T12:00:00+00:00",
+      "times": {
+        "101": {
+          "nome": "Time Alpha",
+          "cla": "FÚRIA CEIFADORES",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 40000,
+          "geral_mensal": 2800
+        },
+        "201": {
+          "nome": "Shadow FC",
+          "cla": "NINJAS",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 48000,
+          "geral_mensal": 3800
+        }
+      }
+    },
+    "2026-06": {
+      "data_coleta": "2026-06-15T12:00:00+00:00",
+      "times": {
+        "101": {
+          "nome": "Time Alpha",
+          "cla": "FÚRIA CEIFADORES",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 43000,
+          "geral_mensal": 3100
+        },
+        "201": {
+          "nome": "Shadow FC",
+          "cla": "NINJAS",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 50000,
+          "geral_mensal": 4000
+        }
+      }
+    },
+    "2026-07": {
+      "data_coleta": "2026-07-03T11:59:30.339571+00:00",
+      "times": {
+        "396498": {
+          "nome": "AC Milan - ACM",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10545,
+          "geral_mensal": 142
+        },
+        "557622": {
+          "nome": "Alvorada FC - ALV",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 11014,
+          "geral_mensal": 437
+        },
+        "237885": {
+          "nome": "BRAZUKA FA - BRAZ",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 11280,
+          "geral_mensal": 300
+        },
+        "124300": {
+          "nome": "Buss Jundiaí Club - BUSS",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 11357,
+          "geral_mensal": 50
+        },
+        "434820": {
+          "nome": "Clube Recreativo Elisiário - CRE",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 12298,
+          "geral_mensal": 54
+        },
+        "875738": {
+          "nome": "Clube Atlético Nicolly Vitória - CANV",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10431,
+          "geral_mensal": 233
+        },
+        "591390": {
+          "nome": "Combate à Dengue F.C. - CDFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10609,
+          "geral_mensal": 47
+        },
+        "993287": {
+          "nome": "Corinthians Football - COR",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 11435,
+          "geral_mensal": 35
+        },
+        "223724": {
+          "nome": "Dibrados Futebol Clube - DFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 12497,
+          "geral_mensal": 49
+        },
+        "123299": {
+          "nome": "Esportiva Jundiaiense AEJ - AEJ",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 9468,
+          "geral_mensal": 71
+        },
+        "295509": {
+          "nome": "Familia Futebol Cachaça - FFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10256,
+          "geral_mensal": 58
+        },
+        "258088": {
+          "nome": "FC Columbus - FCCB",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 9536,
+          "geral_mensal": 225
+        },
+        "991497": {
+          "nome": "FÚRIA CEIFADORES DO NORDESTE - FCN",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 9253,
+          "geral_mensal": 89
+        },
+        "976329": {
+          "nome": "Fúria Jundiaiense F.C - JUND",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 12000,
+          "geral_mensal": 281
+        },
+        "823762": {
+          "nome": "FURIA NORDESTINA - FN",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 8929,
+          "geral_mensal": 319
+        },
+        "775937": {
+          "nome": "Garotinho Esporte Clube - GR",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 7699,
+          "geral_mensal": 13
+        },
+        "981751": {
+          "nome": "ICE TABACARIA CLUB - ICE",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10640,
+          "geral_mensal": 39
+        },
+        "992417": {
+          "nome": "JASON-13 FC - JSN",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10142,
+          "geral_mensal": 31
+        },
+        "220611": {
+          "nome": "Liverpool Football Club - LFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 13531,
+          "geral_mensal": 84
+        },
+        "307128": {
+          "nome": "Prédio Grécia F.C - PGFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 14576,
+          "geral_mensal": 55
+        },
+        "1018811": {
+          "nome": "R E I D E C O P A S - BETO",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 7007,
+          "geral_mensal": 43
+        },
+        "635796": {
+          "nome": "RAPOSÃO DESTRUIDOR - RDFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 8731,
+          "geral_mensal": 36
+        },
+        "766181": {
+          "nome": "Real Madrid CF - RMCF",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 12475,
+          "geral_mensal": 152
+        },
+        "696642": {
+          "nome": "ScorpionMortal Futebol Clube - SMFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 7611,
+          "geral_mensal": 39
+        },
+        "222872": {
+          "nome": "Skina - SKN",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 7617,
+          "geral_mensal": 18
+        },
+        "899556": {
+          "nome": "Só Quem Fapa F.C - FAP",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10326,
+          "geral_mensal": 41
+        },
+        "606775": {
+          "nome": "SOLARIS .FC. - SOLS",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 9160,
+          "geral_mensal": 36
+        },
+        "601622": {
+          "nome": "SolitGames - SG",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10495,
+          "geral_mensal": 57
+        },
+        "296287": {
+          "nome": "SouKareta - SK",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10962,
+          "geral_mensal": 108
+        },
+        "247987": {
+          "nome": "Vasco da Gama - VG",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 12742,
+          "geral_mensal": 34
+        },
+        "870890": {
+          "nome": "VESUNNO - VFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 10169,
+          "geral_mensal": 88
+        },
+        "303938": {
+          "nome": "Wood Legs FC - WL",
+          "cla": "",
+          "cla_grupo": "FÚRIA CEIFADORES",
+          "pontos_ano": 8860,
+          "geral_mensal": 151
+        },
+        "291950": {
+          "nome": "Arsenal Football Club - ARS",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 9356,
+          "geral_mensal": 337
+        },
+        "194072": {
+          "nome": "BacelaR FC - BLCA",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8331,
+          "geral_mensal": 23
+        },
+        "1020481": {
+          "nome": "BARRACUDA - BFC",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8004,
+          "geral_mensal": 37
+        },
+        "239735": {
+          "nome": "C. R. Escudeto - CRE",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 10428,
+          "geral_mensal": 46
+        },
+        "608047": {
+          "nome": "CAPRICÓRNIO FR - CFR",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7822,
+          "geral_mensal": 36
+        },
+        "701465": {
+          "nome": "Ceifadores Jundiaí - JUND",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8891,
+          "geral_mensal": 331
+        },
+        "984931": {
+          "nome": "Ceifúria Jundiaí Clube - JUND",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7972,
+          "geral_mensal": 49
+        },
+        "976477": {
+          "nome": "DEMA TEAM - DEMA",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8622,
+          "geral_mensal": 34
+        },
+        "1005903": {
+          "nome": "E$QUADRÃO DE AÇO - EDA",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7611,
+          "geral_mensal": 32
+        },
+        "439085": {
+          "nome": "FC Holy Phoenix - FCHP",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8420,
+          "geral_mensal": 46
+        },
+        "234171": {
+          "nome": "FC Midnight Bears - FCMB",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8295,
+          "geral_mensal": 126
+        },
+        "627047": {
+          "nome": "Fúria Portuguesa FC - FPFC",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8079,
+          "geral_mensal": 35
+        },
+        "395687": {
+          "nome": "Harry Potter FC - HP",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8084,
+          "geral_mensal": 67
+        },
+        "61507": {
+          "nome": "IN$ANOS - INS",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 9419,
+          "geral_mensal": 93
+        },
+        "378961": {
+          "nome": "JON TEAM - JON",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8228,
+          "geral_mensal": 37
+        },
+        "437047": {
+          "nome": "Jundiaí Sport Club 2.0 - JUND",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7588,
+          "geral_mensal": 54
+        },
+        "285489": {
+          "nome": "KESSINHO MAIRI JRS FC - MJFC",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8528,
+          "geral_mensal": 15
+        },
+        "874525": {
+          "nome": "Lhama`s United - LHAM",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 9097,
+          "geral_mensal": 25
+        },
+        "194765": {
+          "nome": "Los Prexecas F.C - LPX",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8754,
+          "geral_mensal": 77
+        },
+        "139764": {
+          "nome": "Newell's Bad Boys¨ - NBD",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8224,
+          "geral_mensal": 80
+        },
+        "207048": {
+          "nome": "Os Mercenários - PM",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7767,
+          "geral_mensal": 34
+        },
+        "1021510": {
+          "nome": "RAIDEN FR - RFR",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 9741,
+          "geral_mensal": 297
+        },
+        "654709": {
+          "nome": "REAL MAIRI FUTEBOL CLUBE - FUR",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7452,
+          "geral_mensal": 81
+        },
+        "349291": {
+          "nome": "REAL SALVADOR - BA",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8682,
+          "geral_mensal": 114
+        },
+        "238576": {
+          "nome": "S E L E Ç Ã O NORDESTE - SN",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8789,
+          "geral_mensal": 158
+        },
+        "277418": {
+          "nome": "São Paulo da Bah - SPB",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8708,
+          "geral_mensal": 247
+        },
+        "463871": {
+          "nome": "SELEÇÃO NORDESTE - SN",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 7948,
+          "geral_mensal": 14
+        },
+        "16563": {
+          "nome": "SELEÇÃO NORDESTE FC - SNFC",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8770,
+          "geral_mensal": 160
+        },
+        "711883": {
+          "nome": "Time dos Solteiros Fúria - TSF",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8788,
+          "geral_mensal": 132
+        },
+        "164031": {
+          "nome": "TOROLOCO - TRLC",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 9508,
+          "geral_mensal": 46
+        },
+        "1014118": {
+          "nome": "TRICOLOR DE SALVADOR - BBMP",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8713,
+          "geral_mensal": 182
+        },
+        "305744": {
+          "nome": "Vai, Corinthians ! - VC",
+          "cla": "",
+          "cla_grupo": "CEIFADORES FÚRIA",
+          "pontos_ano": 8527,
+          "geral_mensal": 117
+        },
+        "320187": {
+          "nome": "ACME - Ç",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7625,
+          "geral_mensal": 66
+        },
+        "991208": {
+          "nome": "APEND CITY - ACFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7190,
+          "geral_mensal": 21
+        },
+        "501356": {
+          "nome": "Aracaju United CN - AUCN",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6979,
+          "geral_mensal": 61
+        },
+        "421852": {
+          "nome": "Aston Briga F.C. - ABFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 5448,
+          "geral_mensal": 37
+        },
+        "292909": {
+          "nome": "BAILE DE MUNIQUE - BMFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7243,
+          "geral_mensal": 37
+        },
+        "1014663": {
+          "nome": "BAR do BOIADEIRO - BAR",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6867,
+          "geral_mensal": 274
+        },
+        "525867": {
+          "nome": "Black Sabbath - BS",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6080,
+          "geral_mensal": 54
+        },
+        "978462": {
+          "nome": "BOLIVÃO - BFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7361,
+          "geral_mensal": 38
+        },
+        "309015": {
+          "nome": "Cavalo de Tróia - FR - CTFR",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6994,
+          "geral_mensal": 37
+        },
+        "331164": {
+          "nome": "Ceifadores Furiosos - CEIF",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6423,
+          "geral_mensal": 206
+        },
+        "601627": {
+          "nome": "F Ú R I A - SN",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7455,
+          "geral_mensal": 335
+        },
+        "1023538": {
+          "nome": "Fênix Imbatível - FI",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 8960,
+          "geral_mensal": 29
+        },
+        "959954": {
+          "nome": "Fúria Jundiaí F.C - FUR",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7187,
+          "geral_mensal": 148
+        },
+        "944894": {
+          "nome": "GRUPO KK FC - KK",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6949,
+          "geral_mensal": 70
+        },
+        "711245": {
+          "nome": "IlllIIllIlllIIlIlIllllIIlIlIIl - IIII",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 8487,
+          "geral_mensal": 29
+        },
+        "973519": {
+          "nome": "Inter de Milhao - IMFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7129,
+          "geral_mensal": 56
+        },
+        "225593": {
+          "nome": "Laranja Assassina FC. - LAFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6408,
+          "geral_mensal": 24
+        },
+        "797463": {
+          "nome": "M@naus FC - MFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6739,
+          "geral_mensal": 59
+        },
+        "866244": {
+          "nome": "MEIA BOCA JRS - CMBJ",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6505,
+          "geral_mensal": 55
+        },
+        "596805": {
+          "nome": "O Balaio FC. - EDG",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6227,
+          "geral_mensal": 14
+        },
+        "689232": {
+          "nome": "PAPAI SMURF FR - PSFR",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7523,
+          "geral_mensal": 28
+        },
+        "148113": {
+          "nome": "Pernambuco F.C® - PFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6203,
+          "geral_mensal": 7
+        },
+        "1011033": {
+          "nome": "PORTELA FOOTBALL - PFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6613,
+          "geral_mensal": 227
+        },
+        "213183": {
+          "nome": "St. Leôncio Athletic - SLA",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6123,
+          "geral_mensal": 27
+        },
+        "845636": {
+          "nome": "TEXUGO FC - TEXU",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 5415,
+          "geral_mensal": 66
+        },
+        "1009822": {
+          "nome": "União Recreativo Trindade - URT",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6266,
+          "geral_mensal": 136
+        },
+        "634477": {
+          "nome": "UNIVAS - O RETORNO - UNV",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7981,
+          "geral_mensal": 43
+        },
+        "948549": {
+          "nome": "Valencia Club CN - VC",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 7659,
+          "geral_mensal": 32
+        },
+        "986636": {
+          "nome": "Wrestle Mania - CN - WM",
+          "cla": "",
+          "cla_grupo": "FÚRIA JUNIORS",
+          "pontos_ano": 6877,
+          "geral_mensal": 92
+        },
+        "1027079": {
+          "nome": "AC Skiper - SKP",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6749,
+          "geral_mensal": 40
+        },
+        "204399": {
+          "nome": "América MG Futebol Clube - AMFC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 4238,
+          "geral_mensal": 28
+        },
+        "1025601": {
+          "nome": "BAHIA CITY - BBMP",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5617,
+          "geral_mensal": 42
+        },
+        "1026605": {
+          "nome": "CALVOS FC - CFC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 3935,
+          "geral_mensal": 12
+        },
+        "718546": {
+          "nome": "Camaleão Júnior - CJ",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6287,
+          "geral_mensal": 24
+        },
+        "1026585": {
+          "nome": "campinense clube3 pb -novo - AAAA",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 2827,
+          "geral_mensal": 5
+        },
+        "611985": {
+          "nome": "CASCA GROSSA - FC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 4751,
+          "geral_mensal": 27
+        },
+        "440022": {
+          "nome": "CHELSEA CARIOCA S.C - FRCF",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5487,
+          "geral_mensal": 101
+        },
+        "1024586": {
+          "nome": "Clube Do Médico - CDM",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5206,
+          "geral_mensal": 5
+        },
+        "1025514": {
+          "nome": "Cruzeiro Oliveira M,G - COMG",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5253,
+          "geral_mensal": 24
+        },
+        "1002874": {
+          "nome": "Dendele Futebol Clube - DDL",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6841,
+          "geral_mensal": 55
+        },
+        "1019086": {
+          "nome": "FC BAHIA MÜNCHEN - FCBM",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 4090,
+          "geral_mensal": 51
+        },
+        "300398": {
+          "nome": "Futebol De Favela - FAV",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5202,
+          "geral_mensal": 51
+        },
+        "566994": {
+          "nome": "Golden State Warriors - GSW",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6158,
+          "geral_mensal": 21
+        },
+        "987606": {
+          "nome": "INTER DE LIMÃO FR - ILFR",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 4747,
+          "geral_mensal": 28
+        },
+        "625102": {
+          "nome": "Juventus - CF - JUVE",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6545,
+          "geral_mensal": 194
+        },
+        "1025093": {
+          "nome": "Kebra Gelo - GELO",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 1259,
+          "geral_mensal": 5
+        },
+        "1024116": {
+          "nome": "Macapá Futebol Show - MFS",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 4804,
+          "geral_mensal": 20
+        },
+        "1024951": {
+          "nome": "Mar Futebol Clube - MFC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 3459,
+          "geral_mensal": 21
+        },
+        "1024165": {
+          "nome": "Nightwolf F.C - NGW",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 10781,
+          "geral_mensal": 25
+        },
+        "966572": {
+          "nome": "Peladeiros CF - PE",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5944,
+          "geral_mensal": 27
+        },
+        "1023952": {
+          "nome": "Queensland EC - QUEC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 3204,
+          "geral_mensal": 49
+        },
+        "981005": {
+          "nome": "Santos minha paixão. - SFC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5793,
+          "geral_mensal": 93
+        },
+        "1023028": {
+          "nome": "Sexta Athletic - SFE",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5904,
+          "geral_mensal": 39
+        },
+        "702927": {
+          "nome": "SOBERANO F.C. - SFC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 7858,
+          "geral_mensal": 63
+        },
+        "1025179": {
+          "nome": "Sport Recife Gold - SRG",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 1957,
+          "geral_mensal": 2
+        },
+        "724323": {
+          "nome": "Sporting Clube Alfenas - SCA",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 2909,
+          "geral_mensal": 12
+        },
+        "1026015": {
+          "nome": "The Return F.C - TRFC",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6123,
+          "geral_mensal": 54
+        },
+        "1025636": {
+          "nome": "Tio Patinhas F.C - SAF",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 6210,
+          "geral_mensal": 42
+        },
+        "666750": {
+          "nome": "Trindade Foot Ball - TRFB",
+          "cla": "",
+          "cla_grupo": "NINJAS",
+          "pontos_ano": 5484,
+          "geral_mensal": 210
+        },
+        "616900": {
+          "nome": "A.C.PRAÇA 10 - AC10",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 6845,
+          "geral_mensal": 55
+        },
+        "1025126": {
+          "nome": "Barra Town - BT",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 243,
+          "geral_mensal": 0
+        },
+        "1021589": {
+          "nome": "BOLSONARISTA - BOZO",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 1348,
+          "geral_mensal": 10
+        },
+        "1027886": {
+          "nome": "C. F. PâNiCo ¬_¬ - CFP",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 5734,
+          "geral_mensal": 235
+        },
+        "1007318": {
+          "nome": "Clube Gênesis 2.0 - GNS",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 486,
+          "geral_mensal": 0
+        },
+        "1022791": {
+          "nome": "Colapso - COL",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 3318,
+          "geral_mensal": 19
+        },
+        "1025294": {
+          "nome": "DJJ FLAU - FLA",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 538,
+          "geral_mensal": 0
+        },
+        "1025572": {
+          "nome": "Ethereum - ETC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 3978,
+          "geral_mensal": 37
+        },
+        "1021157": {
+          "nome": "F.C. REAL GARI - FCRG",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 6464,
+          "geral_mensal": 210
+        },
+        "717157": {
+          "nome": "Flamengo Júnior - CRFJ",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 5701,
+          "geral_mensal": 37
+        },
+        "1025625": {
+          "nome": "Fúria Junior - FJR",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 815,
+          "geral_mensal": 0
+        },
+        "1023865": {
+          "nome": "Fúria Talent`s F C - FTFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 1116,
+          "geral_mensal": 0
+        },
+        "1023483": {
+          "nome": "Gabiroto - GFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 1198,
+          "geral_mensal": 7
+        },
+        "1025931": {
+          "nome": "Galactus F.C. - GLT",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 710,
+          "geral_mensal": 0
+        },
+        "1024115": {
+          "nome": "Gunthi EC - GEC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 5154,
+          "geral_mensal": 7
+        },
+        "794314": {
+          "nome": "JUMENTUS - JFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 6957,
+          "geral_mensal": 33
+        },
+        "1025423": {
+          "nome": "LEGEND SUPREME - LSE",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 4391,
+          "geral_mensal": 56
+        },
+        "1027181": {
+          "nome": "P0rTinHO - POA",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 4634,
+          "geral_mensal": 5
+        },
+        "1024916": {
+          "nome": "PESADELO F.C. - PFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 2615,
+          "geral_mensal": 12
+        },
+        "1026267": {
+          "nome": "PIKA DAS GALÁXIAS - PIKA",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 2477,
+          "geral_mensal": 32
+        },
+        "1025337": {
+          "nome": "Plutos FC. - PLU",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 1366,
+          "geral_mensal": 62
+        },
+        "1024692": {
+          "nome": "Roxy FC - RFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 4307,
+          "geral_mensal": 119
+        },
+        "1024897": {
+          "nome": "SAF Botafogo F.C - BOT",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 708,
+          "geral_mensal": 0
+        },
+        "1024688": {
+          "nome": "Sport Clube União das Tribos - SCUT",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 4134,
+          "geral_mensal": 29
+        },
+        "1024125": {
+          "nome": "T I T A N I C - BETO",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 2514,
+          "geral_mensal": 16
+        },
+        "1020526": {
+          "nome": "Trujillo United - TRUJ",
+          "cla": "",
+          "cla_grupo": "FÚRIA TALENT'S",
+          "pontos_ano": 3447,
+          "geral_mensal": 72
+        },
+        "1027083": {
+          "nome": "Águia de ouro. - OURO",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 1012,
+          "geral_mensal": 0
+        },
+        "1026841": {
+          "nome": "Beira Rio F.C @ - BRFC",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 305,
+          "geral_mensal": 5
+        },
+        "1024834": {
+          "nome": "Corinthians Football - Juniors - COR",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 0,
+          "geral_mensal": 0
+        },
+        "1022861": {
+          "nome": "FATAL MODEL F C - FM",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 573,
+          "geral_mensal": 0
+        },
+        "1025107": {
+          "nome": "HANÖVER 96 - HAN",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 421,
+          "geral_mensal": 5
+        },
+        "1026672": {
+          "nome": "IllIIllllIIIlIlIlllIIlIIlIIlll - IIII",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 162,
+          "geral_mensal": 0
+        },
+        "1025726": {
+          "nome": "Lumus Eletroeletrônica - LEE",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 0,
+          "geral_mensal": 0
+        },
+        "1024700": {
+          "nome": "Manguetown Recife Clube - MRC",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 838,
+          "geral_mensal": 0
+        },
+        "1025077": {
+          "nome": "VASCO DA GAMA © - CRVG",
+          "cla": "",
+          "cla_grupo": "FÚRIA ACADEMY",
+          "pontos_ano": 6886,
+          "geral_mensal": 50
+        }
+      }
+    }
+  }
+}

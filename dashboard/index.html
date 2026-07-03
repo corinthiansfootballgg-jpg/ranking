@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FRCF Ranking — Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">⚽</div>
+        <div>
+          <h1>FRCF Ranking</h1>
+          <p class="subtitle">Família Real Ceifadores Fúria</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="badge" id="mes-referencia">—</span>
+        <span class="updated" id="updated-at">Carregando...</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="overview">Visão Geral</button>
+    <button class="tab" data-tab="clas">Por Clã</button>
+    <button class="tab" data-tab="rankings">Rankings</button>
+    <button class="tab" data-tab="medias">Médias</button>
+    <button class="tab" data-tab="titulos">Títulos</button>
+  </nav>
+
+  <main class="container">
+    <!-- VISÃO GERAL -->
+    <section class="panel active" id="panel-overview">
+      <div class="hero-cards">
+        <article class="hero-card highlight">
+          <span class="hero-label">Maior pontuador mensal</span>
+          <h2 id="top-scorer-name">—</h2>
+          <p class="hero-value" id="top-scorer-points">—</p>
+          <p class="hero-detail" id="top-scorer-cla">—</p>
+        </article>
+        <article class="hero-card">
+          <span class="hero-label">Times monitorados</span>
+          <h2 id="total-teams">—</h2>
+          <p class="hero-detail">Em <span id="total-clas">—</span> clãs</p>
+        </article>
+        <article class="hero-card">
+          <span class="hero-label">Histórico disponível</span>
+          <h2 id="meses-historico">—</h2>
+          <p class="hero-detail">meses de snapshots</p>
+        </article>
+      </div>
+
+      <div class="charts-grid">
+        <div class="card chart-card">
+          <h3>Top 10 — Pontos do ano</h3>
+          <canvas id="chart-ano"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>Top 10 — Geral mensal</h3>
+          <canvas id="chart-mensal"></canvas>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Pontos por clã (soma anual)</h3>
+        <canvas id="chart-clas"></canvas>
+      </div>
+    </section>
+
+    <!-- POR CLÃ -->
+    <section class="panel" id="panel-clas">
+      <div class="cla-filter">
+        <label for="cla-select">Selecione o clã</label>
+        <select id="cla-select"></select>
+      </div>
+      <div class="card">
+        <h3 id="cla-table-title">—</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Time</th>
+                <th>Pontos Ano</th>
+                <th>Geral Mensal</th>
+                <th>Clã</th>
+              </tr>
+            </thead>
+            <tbody id="cla-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- RANKINGS -->
+    <section class="panel" id="panel-rankings">
+      <div class="rankings-grid">
+        <div class="card">
+          <h3>🏆 Ranking anual — Top 15</h3>
+          <ol class="ranking-list" id="ranking-ano"></ol>
+        </div>
+        <div class="card">
+          <h3>📅 Ranking mensal — Top 15</h3>
+          <ol class="ranking-list" id="ranking-mensal"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÉDIAS -->
+    <section class="panel" id="panel-medias">
+      <p class="info-banner" id="medias-info"></p>
+      <div class="charts-grid">
+        <div class="card chart-card">
+          <h3>Média dos últimos 3 meses</h3>
+          <canvas id="chart-media-3"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>Média dos últimos 6 meses</h3>
+          <canvas id="chart-media-6"></canvas>
+        </div>
+      </div>
+      <div class="rankings-grid">
+        <div class="card">
+          <h3>Top 15 — Média 3 meses</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>#</th><th>Time</th><th>Clã</th><th>Média</th><th>Meses</th></tr>
+              </thead>
+              <tbody id="table-media-3"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Top 15 — Média 6 meses</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>#</th><th>Time</th><th>Clã</th><th>Média</th><th>Meses</th></tr>
+              </thead>
+              <tbody id="table-media-6"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÍTULOS -->
+    <section class="panel" id="panel-titulos">
+      <div class="card">
+        <h3>🏅 Últimos títulos conquistados</h3>
+        <p class="section-desc">Títulos extraídos das páginas dos times no GameGol</p>
+        <div class="titulos-grid" id="titulos-grid"></div>
+        <p class="empty-state hidden" id="titulos-empty">Nenhum título encontrado nesta coleta.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Dados coletados automaticamente do GameGol · Atualizado pelo script FRCF</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
