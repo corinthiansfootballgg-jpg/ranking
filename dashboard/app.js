@@ -1,4 +1,5 @@
-const DATA_URL = "../data/ranking.json";
+const DATA_URL = '../data/ranking.json';
+const HISTORY_URL = '../data/history.json'; // Adicione esta linha
 const CHART_COLORS = [
   "#ff4d2e", "#ff8c42", "#ffd166", "#3dd68c", "#4ecdc4",
   "#a78bfa", "#f472b6", "#60a5fa", "#fbbf24", "#34d399",
@@ -279,26 +280,38 @@ function setupTabs() {
 
 async function load() {
   try {
+    // 1. Carrega o ranking principal
     const res = await fetch(DATA_URL);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) throw new Error(`Erro no ranking: ${res.status}`);
     data = await res.json();
 
-    document.getElementById("mes-referencia").textContent =
-      data.mes_referencia || "—";
-    document.getElementById("updated-at").textContent =
-      "Atualizado em " + formatDate(data.updated_at);
+    // 2. Tenta carregar o histórico (se necessário para os gráficos)
+    try {
+      const resHist = await fetch('../data/history.json');
+      if (resHist.ok) {
+        const historyData = await resHist.json();
+        // Mescla o histórico nos dados, se necessário
+        data.history = historyData; 
+      }
+    } catch (e) {
+      console.warn("Histórico não carregado, apenas ranking disponível.");
+    }
 
+    // 3. Atualiza o painel
+    document.getElementById("mes-referencia").textContent = data.mes_referencia || "—";
+    document.getElementById("updated-at").textContent = "Atualizado em " + formatDate(data.updated_at);
+
+    // 4. Renderiza tudo
     renderOverview();
     renderClas();
     renderRankings();
     renderMedias();
     renderTitulos();
     setupTabs();
+
   } catch (err) {
-    document.getElementById("updated-at").textContent =
-      "Erro ao carregar dados. Execute o script.py primeiro.";
+    document.getElementById("updated-at").textContent = "Erro ao carregar dados.";
     console.error(err);
   }
 }
-
 load();
