@@ -345,7 +345,23 @@ def atualizar_planilha(planilha, clas_dados):
             f"A{linha_inicial}:I{linha_inicial + 1}",
             {"textFormat": {"bold": True}},
         )
+import glob
+import shutil
 
+def gerenciar_limite_historico(pasta_historico="data/history"):
+    """Mantém apenas os últimos 6 arquivos na pasta de histórico."""
+    # Garante que a pasta existe
+    if not os.path.exists(pasta_historico):
+        os.makedirs(pasta_historico)
+    
+    # Lista arquivos .json, ordena por data de modificação
+    arquivos = sorted(glob.glob(os.path.join(pasta_historico, "*.json")), key=os.path.getmtime)
+    
+    # Se passar de 6, remove os mais antigos
+    while len(arquivos) > 6:
+        os.remove(arquivos[0])
+        print(f"🗑️ Histórico antigo removido: {arquivos[0]}")
+        arquivos.pop(0)
 
 def coletar_dados(driver, wait):
     clas_dados = []
@@ -411,7 +427,7 @@ def main():
     options.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 25)
-
+def processar_historico_e_medias(clas_dados):
     try:
         print("🔐 Iniciando processo de login...")
         driver.get("https://www.gamegol.com.br")
@@ -424,7 +440,15 @@ def main():
 
         historico = carregar_historico()
         historico = salvar_snapshot_historico(historico, clas_dados)
+        # ... (dentro da sua função principal)
+        
+        # 1. Monta o payload original que você já tem
         payload = montar_payload(clas_dados, historico)
+        
+        # 2. ADICIONE ISSO AQUI:
+        gerenciar_limite_historico("data/history")
+        
+        # 3. Salva o JSON original como você já fazia
         salvar_json(payload, historico)
         print(f"\n💾 JSON salvo em {RANKING_FILE}")
 
