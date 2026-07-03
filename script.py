@@ -442,13 +442,12 @@ def processar_historico_e_medias(clas_dados):
         historico = salvar_snapshot_historico(historico, clas_dados)
         # ... (dentro da sua função principal)
         
-        # 1. Monta o payload original que você já tem
+        # ... seu código atual que coleta e prepara os dados
         payload = montar_payload(clas_dados, historico)
         
-        # 2. ADICIONE ISSO AQUI:
+        # Chamada para limpar históricos antigos e manter apenas 6
         gerenciar_limite_historico("data/history")
         
-        # 3. Salva o JSON original como você já fazia
         salvar_json(payload, historico)
         print(f"\n💾 JSON salvo em {RANKING_FILE}")
 
@@ -465,3 +464,18 @@ def processar_historico_e_medias(clas_dados):
 
 if __name__ == "__main__":
     main()
+import glob
+
+def gerenciar_limite_historico(pasta_historico="data/history"):
+    """Mantém apenas os últimos 6 arquivos na pasta de histórico."""
+    if not os.path.exists(pasta_historico):
+        os.makedirs(pasta_historico)
+    
+    # Lista arquivos .json e ordena pelos mais antigos
+    arquivos = sorted(glob.glob(os.path.join(pasta_historico, "*.json")), key=os.path.getmtime)
+    
+    # Se houver mais de 6, remove os mais antigos até sobrar apenas 6
+    while len(arquivos) > 6:
+        os.remove(arquivos[0])
+        print(f"🗑️ Histórico antigo removido: {arquivos[0]}")
+        arquivos.pop(0)
