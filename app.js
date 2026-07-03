@@ -1,6 +1,6 @@
-// CAMINHOS CORRIGIDOS PARA SUBIR UM NÍVEL DA PASTA DASHBOARD
-const DATA_URL = '../data/ranking.json';
-const HISTORY_URL = '../data/history.json';
+// CAMINHOS CORRIGIDOS PARA A RAIZ
+const DATA_URL = 'data/ranking.json';
+const HISTORY_URL = 'data/history.json';
 const CHART_COLORS = [
   "#ff4d2e", "#ff8c42", "#ffd166", "#3dd68c", "#4ecdc4",
   "#a78bfa", "#f472b6", "#60a5fa", "#fbbf24", "#34d399",
@@ -286,7 +286,7 @@ async function load() {
     data = await res.json();
 
     try {
-      const resHist = await fetch(HISTORY_URL); // Usando a constante corrigida
+      const resHist = await fetch(HISTORY_URL);
       if (resHist.ok) {
         const historyData = await resHist.json();
         data.history = historyData; 
